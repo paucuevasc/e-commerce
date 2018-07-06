@@ -1,2 +1,26 @@
 Definició del servei Web
 
+L'aplicació es basarà en la venta de llibres online.
+
+Funcions:
+-Sign in/Log in/idioma/carrito.
+
+Seccions:
+-Noticies: Amb informació d'events, ofertes o publicacions especials.
+-Catàleg: Catàleg de la llibreria per genere, opció de filtrat.
+-Recomanacions: Secció de recomanacions actualitzable per propietari de la web.
+-Com arribar: Dirigeix a una guía d'orientació per arrivar a la localització física de la botiga (en cas d'haber-hi).
+
+Filtrat:
+-Llibre.
+-eBook.
+-d'oferta.
+-Buscador (per titol/autor).
+
+Clients:
+-Clients no registrats: Tindràn accés a tota la web pero no es guardaràn les seves dades, ni rebran mail d'ofertes i/o noticies, tindràn les mateixes opcions de compra.
+-Clients registrats: Opció de guardar les dades de cara a futures compres, newsletter d'ofertes i noticies.
+
+Compra:
+-Pagar(tarja/paypal/presencialment).
+-Recollida(enviament/recollida a botiga).
