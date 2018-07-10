@@ -1,0 +1,135 @@
+#cabecera{
+    height: auto;
+    width: 100%;
+    background-color: darkorange;
+    margin-right: 40px;
+    padding-bottom: 0px;
+        }
+#logo{
+    width: 30%;
+    height: auto;
+    margin-bottom: 0px;
+        }
+#ul-grid{
+    display: grid;
+    grid-template-areas: "noticies cataleg ofertes relleno recomanem relleno2"; 
+}
+header{
+    height: auto;
+    width: 100%;
+    background-color: darkorange;
+    margin-right: 40px; 
+        }
+.social{
+    height: 25px;
+    width: auto;
+    float: right;
+    padding: 5px;
+        }
+ul{
+    list-style: none;
+}
+li.boton{
+    padding:12px;
+    font-style: normal;
+    padding:10px;
+    text-align: center;
+    }
+li.boton:hover{
+    padding:12px;
+    font-style: normal;
+    padding:10px;
+    text-align: center;
+    background-color: brown;
+    }
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+}
+.boton:nth-of-type(1){
+    grid-area: noticies;
+    }
+.boton:nth-of-type(2){
+    grid-area: cataleg;
+    }
+li.boton:nth-of-type(3){
+    grid-area: ofertes;
+    }
+li.boton:nth-of-type(4){
+    grid-area: relleno;
+    }
+li.boton:nth-of-type(5){
+    grid-area: recomanem;
+    }
+li.boton:nth-of-type(6){
+    grid-area: relleno2;
+    }
+
+#ul-grid li ul{
+    display: none;
+}
+
+#ul-grid li a:hover + ul, #ul-grid li a + ul:hover {
+    display: block;
+    align-content: center;
+}
+#ul-grid li ul li:hover{
+    background-color: darkorange;
+}
+
+
+#catalogo{
+    display: grid;
+    grid-template-areas: "book1 book2 book3 banner1"
+                         "book4 book5 book6 banner1"
+                         "book7 book8 book9 banner2"
+                         "book10 book11 book12 banner3"  ;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: burlywood;
+    height: auto;
+}
+
+.itemcatalogo{
+    margin-top: 10 px;
+    background-color: bisque;
+    padding: 5%;
+    height: 50px;
+}
+.itemcatalogo:nth-of-type(1){
+      grid-area: book1;
+}
+.itemcatalogo:nth-of-type(2){
+      grid-area: book2;
+}
+.itemcatalogo:nth-of-type(3){
+      grid-area: book3;
+}
+.itemcatalogo:nth-of-type(4){
+      grid-area: book4;
+}
+.itemcatalogo:nth-of-type(5){
+      grid-area: book5;
+}
+.itemcatalogo:nth-of-type(6){
+      grid-area: book6;
+}
+.itemcatalogo:nth-of-type(7){
+      grid-area: book7;
+}
+.itemcatalogo:nth-of-type(8){
+      grid-area: book8;
+}
+.itemcatalogo:nth-of-type(9){
+      grid-area: book9;
+}
+.itemcatalogo:nth-of-type(10){
+      grid-area: book10;
+}
+.itemcatalogo:nth-of-type(11){
+      grid-area: book11;
+}
+.itemcatalogo:nth-of-type(12){
+      grid-area: book12;
+}
