@@ -14,7 +14,7 @@ var contador=0;
 contador = Math.floor((Math.random()*longitudArray));
 
 var temp=1;
-var timer=temp*1000;
+var timer=temp*3000;
 
 function banner(){
 contador++;

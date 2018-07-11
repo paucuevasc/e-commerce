@@ -178,7 +178,7 @@ li.boton:nth-of-type(6){
     display: grid;
     grid-template-areas: "Logos Logos About Address";
     background-color: brown;
-    height: 200px;
+    height: 100px;
     width: 100%;
 }
 .BRANDlogo{
@@ -190,4 +190,12 @@ li.boton:nth-of-type(6){
 .BRANDlogo{
     margin: 15px;
     
+}
+#AboutUs{
+    grid-area: About;
+    color:white;
+}
+#Address{
+    grid-area: Address;
+    color:white;
 }
