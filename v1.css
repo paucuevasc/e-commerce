@@ -10,6 +10,11 @@
     height: auto;
     margin-bottom: 0px;
         }
+#banner{
+	height: 120px;
+	width: 50%;
+	
+}		
 #ul-grid{
     display: grid;
     grid-template-areas: "noticies cataleg ofertes relleno recomanem relleno2"; 
@@ -82,13 +87,15 @@ li.boton:nth-of-type(6){
 #catalogo{
     display: grid;
     grid-template-areas: "book1 book2 book3 banner1"
-                         "book4 book5 book6 banner1"
-                         "book7 book8 book9 banner2"
-                         "book10 book11 book12 banner3"  ;
+                         "book4 book5 book6 banner2"
+                         "book7 book8 book9 banner3"
+                         "book10 book11 book12 banner4"  ;
     grid-gap: 10px;
     padding: 10px;
+	padding-right: 5px;
     background-color: burlywood;
     height: auto;
+	align-content: center;
 }
 
 .itemcatalogo{
@@ -97,11 +104,16 @@ li.boton:nth-of-type(6){
     padding: 5%;
     height: auto;
     align-content: center;
+   
 }
 .portada{
     height: 200px;
     width: auto;
+    margin: auto;
 }
+
+	
+
 .itemcatalogo:nth-of-type(1){
       grid-area: book1;
     
@@ -112,6 +124,17 @@ li.boton:nth-of-type(6){
 .itemcatalogo:nth-of-type(3){
       grid-area: book3;
 }
+.bannerlateral{
+	grid-area: 1/4/4/4;
+	width: 200px;
+	height: 1024px;
+	
+}
+#bannerlateral{
+	grid-area: banner1, banner2;
+	width: 200px;
+	height: 1024px;
+	}
 .itemcatalogo:nth-of-type(4){
       grid-area: book4;
 }
